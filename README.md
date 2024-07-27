@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nonnegative-integer@deno/mod.js';
+import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nonnegative-integer@v0.2.1-deno/mod.js';
 ```
 
 #### isNonNegativeInteger( x )
@@ -103,7 +103,7 @@ bool = isNonNegativeInteger( -10.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nonnegative-integer@deno/mod.js';
+import isNonNegativeInteger from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nonnegative-integer@v0.2.1-deno/mod.js';
 
 var bool = isNonNegativeInteger( 5.0 );
 // returns true
