@@ -219,7 +219,7 @@ int main( void ) {
     double x;
     bool v;
     int i;
-    
+
     for ( i = 0; i < 100; i++ ) {
         x = ( ( (double)rand() / (double)RAND_MAX ) * 100.0 ) - 50.0;
         v = stdlib_base_is_nonnegative_integer( x );
@@ -272,6 +272,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -317,6 +322,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/tree/esm
 [esm-readme]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-assert-is-nonnegative-integer/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 
