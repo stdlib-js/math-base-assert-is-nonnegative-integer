@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-15)
+## Unreleased (2025-08-08)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
 -   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_

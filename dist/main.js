@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,38 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/assert/is_nonnegative_integer.h"
-#include "stdlib/math/base/special/floor.h"
-#include <stdbool.h>
+'use strict';
+
+// MODULES //
+
+var floor = require( '@stdlib/math-base-special-floor' );
+
+
+// MAIN //
 
 /**
 * Tests if a finite double-precision floating-point number is a nonnegative integer.
 *
-* @param x    input value
-* @return     output value
+* @param {number} x - value to test
+* @returns {boolean} boolean indicating whether the value is a nonnegative integer
 *
 * @example
-* #include <stdbool.h>
-*
-* bool out = stdlib_base_is_nonnegative_integer( 3.0 );
+* var bool = isNonNegativeInteger( 1.0 );
 * // returns true
+*
+* @example
+* var bool = isNonNegativeInteger( 0.0 );
+* // returns true
+*
+* @example
+* var bool = isNonNegativeInteger( -10.0 );
+* // returns false
 */
-bool stdlib_base_is_nonnegative_integer( const double x ) {
-	return ( stdlib_base_floor( x ) == x && x >= 0.0 );
+function isNonNegativeInteger( x ) {
+	return (floor(x) === x && x >= 0);
 }
+
+
+// EXPORTS //
+
+module.exports = isNonNegativeInteger;
