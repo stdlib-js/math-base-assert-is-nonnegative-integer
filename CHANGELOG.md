@@ -4,7 +4,41 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-08)
+## Unreleased (2026-02-07)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`1eee288`](https://github.com/stdlib-js/stdlib/commit/1eee288269d47dffe3b59766b0bb846089ad2b42) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10133)](https://github.com/stdlib-js/stdlib/pull/10133) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Lokesh Ranjan
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.2">
+
+## 0.2.2 (2026-01-28)
 
 <section class="bug-fixes">
 
@@ -22,8 +56,9 @@
 
 <details>
 
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
--   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh)_
+-   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh Yadav)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
@@ -42,7 +77,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
